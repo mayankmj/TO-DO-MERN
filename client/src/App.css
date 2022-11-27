@@ -26,10 +26,10 @@ input {
 }
 
 .task {
-  background-color: #34495e;
+  background-color: #7d9ab8;
   padding: 15px;
   margin: 5px;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   border-radius: 5px;
   cursor: pointer;
 }

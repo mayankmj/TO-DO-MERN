@@ -15,10 +15,8 @@ const TodoForm =() => {
         settext('');
     }
     const onInputchnage =(e) =>{
-       
         settext(e.target.value);
     }
-
     return(
         <form className="form" onSubmit={onFormSubmit}>
             <input placeholder="Enter new todo..."   className="input"
