@@ -10,6 +10,7 @@ const reducer = combineReducers({
 })
 
 const middleware = [thunk]
+// intialise 
 const store =createStore(  // takes 2 arguments 1.reducer->action item (what to do)
        reducer,// here we can not pass multiple reducer so we use "combineReducer"
 

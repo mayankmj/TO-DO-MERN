@@ -2,16 +2,18 @@ import { useState } from "react"
 // redux => database for front-end
 import { useDispatch } from "react-redux";
 import { addNewTodo } from "../redux/actions";
+
+// all the api calls are running through redux
 const TodoForm =() => {
 
-    const [text,settext] = useState('');
+    const [text,settext] = useState("");
 
     const dispatch = useDispatch();
     const onFormSubmit = (e) =>{
         e.preventDefault();
 
         // here we can call api but as we are using redux , in redux we dispatch our actions
-        dispatch(addNewTodo(text));
+        dispatch(addNewTodo(text)); // will call addNewTodo from index.js
         settext('');
     }
     const onInputchnage =(e) =>{

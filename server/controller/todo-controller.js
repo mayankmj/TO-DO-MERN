@@ -8,8 +8,9 @@ export const addTodo = async (request,response) =>{
     const newTodo = await Todo.create({
         data: request.body.data,
         createdAt: Date.now()
-    })
-    await newTodo.save();
+    })// verification
+
+    await newTodo.save(); // save the data in mongodb
 
    return response.status(200).json(newTodo);
    }
