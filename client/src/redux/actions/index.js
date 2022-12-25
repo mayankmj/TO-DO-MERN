@@ -26,7 +26,7 @@ export const getAllTodos = () => async (dispatch) => {
         dispatch({type:GETALL_TODO  , payload: res.data}); // payload is the data that we set in redux coming from api
      }
      catch(error){
-         console.log('Error while calling newtodo api',error.message);
+         console.log('Error while calling getallTodos api',error.message);
      }
 }
 
