@@ -20,5 +20,5 @@ Connection();
 
 app.listen(PORT, () => console.log(`successful running on PORT ${PORT}`)); // SERVER IT HAVE 2 ARGUMENTS ONE
 // PORT NO AND SECOND CALL BACK FUNCTION i:e what u want to do after starting of server
-// app.listen seups the express server
+// app.listen set-ups the express server
 // nodemon go through to app.listen everytime a change happens

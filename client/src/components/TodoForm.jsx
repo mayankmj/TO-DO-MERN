@@ -1,5 +1,6 @@
 import { useState } from "react"
-// redux => database for front-end
+// redux => 1.database for front-end , stores all the state of the front end
+//          2.to manage more components(conataining states) 
 import { useDispatch } from "react-redux";
 import { addNewTodo } from "../redux/actions";
 

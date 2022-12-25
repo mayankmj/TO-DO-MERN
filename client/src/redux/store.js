@@ -14,7 +14,7 @@ const middleware = [thunk]
 const store =createStore(  // takes 2 arguments 1.reducer->action item (what to do)
        reducer,// here we can not pass multiple reducer so we use "combineReducer"
 
-       composeWithDevTools(applyMiddleware(...middleware)) // for reduc dev tool extension
+       composeWithDevTools(applyMiddleware(...middleware)) // from redux dev tool extension
 
        // reducer -> it is a action item what u have to do for ex we have to delete,edit,add todo so we can 
        // do use using reducers
