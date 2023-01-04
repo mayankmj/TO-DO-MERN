@@ -19,7 +19,7 @@ export const addNewTodo = (data) => async (dispatch) =>{ // dispatch is using wi
 }
 
 
-
+// fetching all todos from backend 
 export const getAllTodos = () => async (dispatch) => {
     try{
         const res = await axios.get(`${API_URL}/todos`)
@@ -30,7 +30,7 @@ export const getAllTodos = () => async (dispatch) => {
      }
 }
 
-
+// used to mark todo done 
 export const toggleTodo = (id) => async (dispatch) => {
     try{
         const res = await axios.get(`${API_URL}/todos/${id}`)

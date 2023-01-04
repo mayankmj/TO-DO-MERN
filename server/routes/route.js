@@ -9,7 +9,7 @@ const route = express.Router();
 // first enter '/' -> end point , work to do on end point -> 
 route.post('/todos',addTodo)
 route.get('/todos',getAllTodos);
-route.get('/tods/:id' , toggleTodoDone)
+route.get('/todos/:id' , toggleTodoDone)
 route.put('/todos/:id',updateTodo)
 route.delete('/todos/:id',deleteTodo)
 

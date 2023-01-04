@@ -17,7 +17,7 @@ const Todos = () =>{
     
     useEffect(() =>{
         dispatch(getAllTodos());
-    },[])
+    },[]) // [] -> empty array
 
     const getTodos = () => {
         if(currentTab === ALL_TODOS) return todos;
@@ -44,12 +44,12 @@ const Todos = () =>{
             todos.some(todo => todo.done) ? ( <button 
             onClick={removeDoneTodos} className="button clear">Remove Done Todos</button>) : null
         }
-        </div>
+        </div> { /*displaying the todo in list on frontend */}
             <ul>
             {
                 getTodos().map(todo => (
                     <Todo 
-                        key = {todo._id}
+                        key = {todo._id} // _id works as key for mongodb
                         todo={todo}
                     />
                 ))

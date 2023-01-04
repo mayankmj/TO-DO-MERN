@@ -25,7 +25,7 @@ const Todo = ({todo}) =>{
               color: todo?.done ? '#bdc3c7' : '#34495e'
            }}
         >
-            <spam style = {{ display : editing ? 'none' : ''}}>{todo?.data}</spam>
+            <span style = {{ display : editing ? 'none' : ''}}> {todo?.data} </span>
 
             <form
                 style = {{ display : editing ? 'inline' : 'none'}}
@@ -38,13 +38,13 @@ const Todo = ({todo}) =>{
                    onChange={(e) => setText(e.target.value)}
                    />
             </form>
-            <spam className="icon" onClick={ () => dispatch(deleteTodo(todo._id))}>
+            <span className="icon" onClick={ () => dispatch(deleteTodo(todo._id))}>
               <i className="fas fa-trash"/>
 
-            </spam>
-            <spam className="icon" onClick={() => setEditing(prevState => !prevState)}>
+            </span>
+            <span className="icon" onClick={() => setEditing(prevState => !prevState)}>
                <i className="fas fa-pen" />
-            </spam>
+            </span>
         </li>
     )
 }
