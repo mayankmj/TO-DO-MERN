@@ -1,5 +1,4 @@
-# todo-list
-todo list web app
+# Todo-list
 # Functionalities 
 - Add Items
 - Delete Items
@@ -10,4 +9,8 @@ todo list web app
 - History Management
 # Demo
 
-# Screens
+## Screens
+### Focus
+  https://drive.google.com/file/d/1K7L6Qr6l_dJ98FVEcpYc0qX3pyzLLPlv/view?usp=sharing
+ 
+  
