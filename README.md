@@ -10,7 +10,16 @@
 # Demo
 
 ## Screens
-### Focus
-  https://drive.google.com/file/d/1K7L6Qr6l_dJ98FVEcpYc0qX3pyzLLPlv/view?usp=sharing
+### Screenshots
+#### 1
+ ![ss1](https://user-images.githubusercontent.com/81777768/210865567-f474f7f2-e251-4a3d-8e5d-77dabbf81177.png)
+ #### 2
+ ![ss2](https://user-images.githubusercontent.com/81777768/210865762-a6b34c3f-5dba-4ca1-b4c4-c9bf36191507.png)
+### Tutorial Video
+
+https://user-images.githubusercontent.com/81777768/210865812-c51fce7d-4509-4b49-a131-dfb9e702e8e7.mp4
+
+
  
+
   
